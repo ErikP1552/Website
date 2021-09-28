@@ -44,6 +44,16 @@ p {
   font-size: 16px;
   border: none;
   cursor: pointer;
+	
+}
+		
+ .vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+	
 }
 
 .dropdown {
@@ -78,14 +88,6 @@ position: center;
   background-color: #3e8e41;
 }
 		
-.vertical-center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}		
-		
 </style>
 </head>
 <body>
@@ -93,6 +95,7 @@ position: center;
 <div class="dropdown">
   <button class="dropbtn">Sample Projects</button>
   <div class="dropdown-content"> 
+	 <div class="vertical-center">
   <a href="https://github.com/ErikP1552/ReviewHandler" target="_blank"> <span style="text-align:center">Sample Java Project</span></a>
   <a href="https://github.com/ErikP1552/Hashing/blob/master/HashingProgram.cpp" target="_blank">Sample C++ Project</a><br>
   <a href="https://github.com/ErikP1552/FitnessWorldApp" target="_blank">Sample Swift Project</a><br>

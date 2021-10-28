@@ -120,7 +120,17 @@ background-color: #00000;
 <p> Swift App that shows origin of dog breeds on map, selectable to view details on each breed </p>
   
 <p style="text-align:right;"><img src="SwiftImage.jpg" width="500" height="400" alt="Swift Project Image"> </p> <br> <br> <br> 
-<script src="http://gist-it.appspot.com/http://github.com/$file"></script>
+<iframe id="github-iframe" src=""></iframe>
+<script>
+    fetch('https://api.github.com/repos/ErikP/Website/index.html')
+        .then(function(response) {
+            return response.json();
+        }).then(function(data) {
+            var iframe = document.getElementById('github-iframe');
+            iframe.src = 'data:text/html;base64,' + encodeURIComponent(data['content']);
+        });
+</script>
+  
   
   
 <h4 style="text-align:center;"> Sample HTML Project </h4>

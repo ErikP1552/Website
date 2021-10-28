@@ -127,9 +127,7 @@ background-color: #00000;
         fetch('https://api.github.com/repos/ErikP1552/Website/index.html')
             .then(function(response) {
                 return response.json();
-            }).then(function(data) {
-                iframe = document.getElementById('github-iframe');
-                iframe.src = 'data:text/html;base64,' + encodeURIComponent(data['content']);
+            })
             });
     </script>
 

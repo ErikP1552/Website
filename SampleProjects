@@ -1,1 +1,53 @@
 
+
+
+
+
+
+
+p> In Progress Section - Additional projects </p>
+
+<h4 style="text-align:center;"> Sample Swift Project </h4>
+<p> Swift App that shows origin of dog breeds on map, selectable to view details on each breed </p>
+  
+  
+
+  <div id ="icons">
+  <p style="float: left; width: 45%; margin-right: 1%; margin-bottom: 0.5em;"><img src="SwiftImage.jpg" width="500" height="400" alt="Swift Project Image"> </p>
+
+    
+    <iframe 
+    style= "float: right; width: 45%; margin-right: 1%; margin-bottom: 0.5em;"
+    width="500"
+    height="400"    
+    src="data:text/html;charset=utf-8,
+    <head><base target='_blank' /></head>
+    <body><script src='https://gist.github.com/ErikP1552/2a8124a6f0cc1c8b44da3a409cce55ef.js'></script>
+    </body>">
+  </div>
+
+<h4 style="text-align:center;"> Sample HTML Project </h4>
+<h4 style="text-align:center;"> Sample Java Project </h4>
+<h4 style="text-align:center;"> Sample C++ Project </h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,8 +1,27 @@
 
-
-
-
-
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=“UTF-8”>
+		<meta name=“description”  content=“This is the Example Project Page”>
+ 		<title> Erik's Example Projects</title>
+	</head>
+	<body>
+  </style>
+	</head>
+	<body>
+    <style> body {
+      background-image: url('background.jpg');
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+    </style>  
+		
+<div class="topnav">
+<a class="active" href="index.html">Home</a>
+<a href="https://www.erikpantoja.com/coursework.html">Coursework</a>
+<a href="https://github.com/ErikP1552">Projects</a>
+</div>			
 
 
 p> In Progress Section - Additional projects </p>
@@ -31,23 +50,6 @@ p> In Progress Section - Additional projects </p>
 <h4 style="text-align:center;"> Sample C++ Project </h4>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</body>
+<footer> </footer>
 

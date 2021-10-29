@@ -1,123 +1,146 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset=“UTF-8”>
-<meta name=“description” content=“This is a great website”>
-<style> p {
-text-align:center
-}
-</style>
-</head>
+    <meta charset=“UTF-8”>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-<body>
-<style> body {
-background-image: url('background.jpg');
-background-repeat: no-repeat;
-background-size: 100% 100%;
-</style>
+    <!-- STYLE -->
+    <style>
+        body {
+            background-image: url('background.jpg');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
 
-  
+        /* Nav Style */
+        .topnav a {
+            text-decoration: none;
+            color: #000;
+            font-size: 1rem;
+            justify-content: space-between;
+            padding: 1rem 1.5rem;
+        }
+
+        p {
+            text-align: center;
+        }
+    </style>
+
+    <!-- NAV -->
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="https://www.erikpantoja.com/coursework.html">Coursework</a>
+        <a href="https://github.com/ErikP1552">GitHub</a>
+        <a href="SampleProjects.html">Example Projects</a>
+    </div>
 </head>
-<body>
-<div class="topnav">
-<a class="active" href="">Home</a>
-<a href="https://www.erikpantoja.com/coursework.html">Coursework</a>
-<a href="https://github.com/ErikP1552">GitHub</a>
-<a href="SampleProjects.html">Example Projects</a>
-</div>
-<header>
-</header>
+<!-- MAIN -->
 <main>
-<article>
-<p style="font-size:2vw"><b> Digital Portfolio</b></p><br><br><br><br>
-<p style="text-align:center;"><img src="Capture.PNG" alt="Erik's main Logo"> </p> <br> <br> <br>
+    <section class="Main Image - Description">
+        <article>
+            <p style="font-size:2vw"><b> Digital Portfolio</b></p><br><br><br><br>
+            <p style="text-align:center;"><img src="Capture.PNG" alt="Erik's main Logo"></p> <br> <br> <br>
 
-<p style="text-align:center;"><img src="picture.jpg" alt="Erik's main Picture"> </p> <br> <br> <br>
-<p> About Erik </p>
-<p> Computer Science graduate and Worldwide Senior Technical Advisor at Apple. I have come from many different career paths and gained so much experience, from being in the Army to teaching children with Autism. I grew up watching alot of Sci Fi and Technology shows, which built my continued eagerness and fascination to learn and develop software. I have gained experience developing software, and testing software through Career Experiences, at Apple. I am continuously learning new ideas and concepts, and willing to collobarate with anyone to share ideas.
-</p> <br> <br> <br>
-</article>
+            <p style="text-align:center;"><img src="picture.jpg" alt="Erik's main Picture"></p> <br> <br> <br>
+            <p> About Erik </p>
+            <p> Computer Science graduate and Worldwide Senior Technical Advisor at Apple. I have come from many
+                different career paths and gained so much experience, from being in the Army to teaching children
+                with Autism. I grew up watching alot of Sci Fi and Technology shows, which built my continued
+                eagerness and fascination to learn and develop software. I have gained experience developing
+                software, and testing software through Career Experiences, at Apple. I am continuously learning new
+                ideas and concepts, and willing to collobarate with anyone to share ideas.
+            </p> <br> <br> <br>
+        </article>
+    </section>
+
+    <!-- Buttons -->
+    <p style="text-align:center;">
+        <ref><b> Common link's </b></ref>
+        <br></p>
+    <p> Please feel free to explore</p> <br> <br> <br>
+    <style>
+        .dropbtn {
+            background-color: #000;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+            margin: 0;
+            position: relative;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: White;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            position: center;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ffffff
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #000000;
+        }
+    </style>
+    </head>
+
+    <div class="dropdown">
+        <button class="dropbtn">GitHub Projects</button>
+        <div class="dropdown-content">
+            <a href="https://github.com/ErikP1552/ReviewHandler" target="_blank"> <span
+                    style="text-align:center">Sample Java Project</span></a>
+            <a href="https://github.com/ErikP1552/Hashing/blob/master/HashingProgram.cpp" target="_blank">Sample
+                C++ Project</a><br>
+            <a href="https://github.com/ErikP1552/FitnessWorldApp" target="_blank">Sample Swift Project</a><br>
+            <a href="https://github.com/ErikP1552/PythonGame/blob/main/main.py" target="_blank">Sample Python
+                Project</a><br>
+            <a href="https://github.com/ErikP1552/MachineLearning/blob/master/Kmeans%20Code.cpp"
+               target="_blank">Sample Machine Learning Clustering Algorithm</a><br><br>
+            <a href="#">Sample HTML Project</a>
+        </div>
+    </div>
+    <br>
 </main>
+
+
+<!-- Footer -->
 <footer>
-<p style="text-align:center;" <ref><b> Common link's </b></ref> <br> </p>
-<p> Please feel free to explore</p> <br> <br> <br>
-
-<style>
-.dropbtn {
-background-color: #000;
-color: white;
-padding: 16px;
-font-size: 16px;
-border: none;
-cursor: pointer;
-}
-
-.dropdown {
-position: relative;
-display: inline-block;
-margin: 0;
-position: relative;
-left: 50%;
--ms-transform: translate(-50%, -50%);
-transform: translate(-50%, -50%);
-}
-
-.dropdown-content {
-display: none;
-position: absolute;
-background-color: #000000
-min-width: 160px;
-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-z-index: 1;
-}
-
-.dropdown-content a {
-color: black;
-padding: 12px 16px;
-text-decoration: none;
-display: block;
-position: center;
-
-}
-
-.dropdown-content a:hover {background-color: #ffffff}
-.dropdown:hover .dropdown-content {
-display: block;
-}
-
-.dropdown:hover .dropbtn {
-background-color: #00000;
-}
-</style>
-</head>
-<body>
-
-<div class="dropdown">
-<button class="dropbtn">GitHub Projects</button>
-<div class="dropdown-content">
-<a href="https://github.com/ErikP1552/ReviewHandler" target="_blank"> <span style="text-align:center">Sample Java Project</span></a>
-<a href="https://github.com/ErikP1552/Hashing/blob/master/HashingProgram.cpp" target="_blank">Sample C++ Project</a><br>
-<a href="https://github.com/ErikP1552/FitnessWorldApp" target="_blank">Sample Swift Project</a><br>
-<a href="https://github.com/ErikP1552/PythonGame/blob/main/main.py" target="_blank">Sample Python Project</a><br>
-<a href="https://github.com/ErikP1552/MachineLearning/blob/master/Kmeans%20Code.cpp" target="_blank">Sample Machine Learning Clustering Algorithm</a><br><br>
-<a href="#">Sample HTML Project</a>
-</div>
-</div> <br>
-
-<p style="text-align:center">
-<p> Sample HTML Project - This Website </p>
-<p style="text-align:center">
-<a href="coursework.html" target="_blank">Relevant Coursework</a><br>
-<a href="https://www.linkedin.com/in/erik-pantoja-547548167/" target="_blank">Linkedin</a><br>
-<a href="https://github.com/ErikP1552" target="_blank">All Public Projects GitHub</a><br>
-<a href="Resume.html" target="_blank">Resume</a><br>
-<a href="WorkHistory.html" target="_blank">Work Experience and Skills</a><br>
-<p> Contact: erik.pantoja@live.com </p> <br> <br> <br> <br> <br> 
-
-
-
-
+    <p style="text-align:center">
+    <p> Sample HTML Project - This Website </p>
+    <p style="text-align:center">
+        <a href="coursework.html" target="_blank">Relevant Coursework</a><br>
+        <a href="https://www.linkedin.com/in/erik-pantoja-547548167/" target="_blank">Linkedin</a><br>
+        <a href="https://github.com/ErikP1552" target="_blank">All Public Projects GitHub</a><br>
+        <a href="Resume.html" target="_blank">Resume</a><br>
+        <a href="WorkHistory.html" target="_blank">Work Experience and Skills</a><br>
+    <p> Contact: erik.pantoja@live.com </p> <br> <br> <br> <br> <br>
 </footer>
-
 </body>
 </html>

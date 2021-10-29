@@ -1,64 +1,95 @@
-
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset=“UTF-8”>
-		<meta name=“description”  content=“This is the Example Project Page”>
- 		<title> Erik's Example Projects</title>
-	</head>
-	<body>
-  </style>
-	</head>
-	<body>
-    <style> body {
-      background-image: url('background.jpg');
-      background-repeat: no-repeat;
-      background-size: 100% 100%;
-    }	
-    </style>  
-		
+<html lang="en">
+<head>
+    <meta charset=“UTF-8”>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- STYLE -->
+    <style>
+        body{
+            background-image: url('background.jpg');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+
+        /* Nav Style */
+        .topnav a{
+            text-decoration: none;
+            color: #000;
+            font-size: 1rem;
+            justify-content: space-between;
+            padding: 1rem 1.5rem;
+        }
+
+        h4{
+            text-align: center;
+        }
+
+        p{
+            text-align:center;
+        }
+    </style>
+
+    <!-- WEBSITE TITLE -->
+    <title> Erik's Example Projects</title>
+</head>
+<body>
+<!-- NAV -->
 <div class="topnav">
-<a class="active" href="index.html">Home</a>
-<a href="https://www.erikpantoja.com/coursework.html">Coursework</a>
-<a href="https://github.com/ErikP1552">GitHub</a>
-<a href="SampleProjects.html">Example Projects</a>
-</div>			
+    <a class="active" href="index.html">Home</a>
+    <a href="https://www.erikpantoja.com/coursework.html">Coursework</a>
+    <a href="https://github.com/ErikP1552">GitHub</a>
+    <a href="SampleProjects.html">Example Projects</a>
+</div>
 
-		
-		
-		
-		
-		
-<h4 style="text-align:center;"> Sample Swift Project </h4>
- 
-   <p style="text-align:center;"> Swift App that shows origin of dog breeds on map, selectable to view details on each breed </p>
- 
-		<div id ="icons">
-    <p style="float: left; width: 45%; margin-right: 1%;"><img src="SwiftImage.jpg" width="500" height="400" alt="Swift Project Image"> </p>
-    
-    <iframe 
-    style= "float: right; width: 45%; margin-right: 1%;"
-    width="500"
-    height="400"    
-    src="data:text/html;charset=utf-8,
-     <script src='https://gist.github.com/ErikP1552/2a8124a6f0cc1c8b44da3a409cce55ef.js'></script>"
-	 </div> </iframe>
-	 <br> <br> <br> <br> <br>
+<!-- MAIN -->
+<main>
+    <!-- Swift Project -->
+    <section class="swift-project">
+        <h4> Sample Swift Project </h4>
 
+        <p> Swift App that shows origin of dog breeds on map, selectable to view details on each breed </p>
 
-<h4 style="text-align:center;"> Sample HTML Project </h4>      
-<p style="text-align:center;"> Website in HTML that shows projects and resources </p>
+        <div id ="icons">
+            <p style="float: left; width: 45%; margin-right: 1%;">
+                <img src="SwiftImage.jpg" width="500" height="400" alt="Swift Project Image">
+            </p>
 
-	  
-<h4 style="text-align:center;"> Sample Java Project </h4>
-	  <!-- Add Gist Code -->
-	  <!-- Add Image of Program -->
-	  
-<h4 style="text-align:center;"> Sample C++ Project </h4>
-	  <!-- Add Gist Code -->
-	  <!-- Add Image of Program -->
+            <iframe>
+                    style= "float: right; width: 45%; margin-right: 1%;"
+                    width="500"
+                    height="400"
+                    src= "data:text/html;charset=utf-8"
+            <script src='https://gist.github.com/ErikP1552/2a8124a6f0cc1c8b44da3a409cce55ef.js'></script>
+            </iframe>
+        </div>
+    </section>
 
+    <!-- HTML Project -->
+    <section class="html-project">
+        <h4> Sample HTML Project </h4>
+        <p> Website in HTML that shows projects and resources </p>
+    </section>
 
+    <!-- Java Project -->
+    <section class="java-project">
+        <h4> Sample Java Project </h4>
+        <!-- Add Gist Code -->
+        <!-- Add Image of Program -->
+    </section>
+
+    <!-- C++ Project -->
+    <section class="c++-project">
+        <h4> Sample C++ Project </h4>
+        <!-- Add Gist Code -->
+        <!-- Add Image of Program -->
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+
+    </footer>
+</main>
 </body>
-<footer> </footer>
-
+</html>

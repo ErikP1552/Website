@@ -3,19 +3,51 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>contact form</title>
+
+    <!-- STYLE with CSS -->
+    <link href="Style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+
+    <!-- STYLE -->
+    <style>
+        body{
+            background-image: url('background.jpg');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+
+        h4{
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+        }
+
+        p{
+            text-align:center;
+        }
+    </style>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="https://www.erikpantoja.com/coursework.html">Coursework</a></li>
+            <li><a href="https://github.com/ErikP1552">GitHub</a></li>
+            <li><a href="SampleProjects.html">Example Projects</a></li>
+            <li><a href="WorkHistory.html">Work Experience and Skills</a></li>
+            <li><a href="ContactForm.html">Contact</a></li>
+        </ul>
+    </nav>
+
 </head>
 
 <body>
-
-<link href="contact-form.css" rel="stylesheet">
-
 <div class="fcf-body">
-
     <div id="fcf-form">
-    <h3 class="fcf-h3">Contact us</h3>
-
-    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
-        
+    <h3 class="fcf-h3">Lets Chat!</h3>
+        <form action ="https://formsubmit.co/erik.pantoja@live.com" method="POST">
+            <input type="hidden" name="_next" value="https://erik.pantoja.com/thankyou.html">
         <div class="fcf-form-group">
             <label for="Name" class="fcf-label">Your name</label>
             <div class="fcf-input-group">
@@ -28,7 +60,7 @@
             <div class="fcf-input-group">
                 <input type="email" id="Email" name="Email" class="fcf-form-control" required>
             </div>
-        </div>
+
 
         <div class="fcf-form-group">
             <label for="Message" class="fcf-label">Your message</label>
@@ -40,11 +72,13 @@
         <div class="fcf-form-group">
             <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
         </div>
-
-    </form>
-    </div>
-
 </div>
+    </form>
+</div>
+</div>
+
+
+
 
 </body>
 </html>

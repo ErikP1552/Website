@@ -15,7 +15,11 @@ body {
   /*background: linear-gradient(132deg, #FC415A, #591BC5, #212335);*/
   background-image: url("background.png");
   background-color: #cccccc;
+}
 
+.background2 {
+  background-image: url("nature.jpg");
+  background-color: #cccccc;
 }
 
 body {
@@ -64,6 +68,8 @@ header{
   margin: 0;
   padding: 0;
 }
+
+
 /* navbar */
 nav{
   color: #000000;

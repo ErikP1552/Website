@@ -15,7 +15,7 @@ body {
   background: linear-gradient(132deg, #FC415A, #591BC5, #212335);
   animation: Gradient 15s ease infinite;
   position: relative;
-  height: 150vh;
+  height: 100%;
   width: 100%;
   padding:0;
   margin:0px;

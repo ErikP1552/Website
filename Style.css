@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Josefin Sans', sans-serif;
-  background-color: lightblue; /* Basic background color */
+  background-color: white; /* Set to white background */
   color: #000;
   width: 100%;
   height: 100%;
@@ -63,7 +63,7 @@ nav ul li a:hover {
 }
 
 .header-content p {
-  font-size: 1.5em;
+  font-size: 1.5em; /* Increase font size for clarity */
 }
 
 .logo-image {
@@ -117,22 +117,4 @@ nav ul li a:hover {
 
 .footer-content p {
   font-size: 1em;
-}
-
-/* Animations (Not Applied Now, but Here for Future Use) */
-@keyframes Gradient {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
-
-@keyframes cube {
-  from {
-    transform: scale(0) rotate(0deg) translate(-50%, -50%);
-    opacity: 1;
-  }
-  to {
-    transform: scale(20) rotate(960deg) translate(-50%, -50%);
-    opacity: 0;
-  }
 }

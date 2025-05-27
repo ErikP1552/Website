@@ -5,10 +5,6 @@
   padding: 0;
 }
 
-html, body {
-  height: 100%;
-}
-
 body {
   font-family: 'Josefin Sans', sans-serif;
   background: #fff;
@@ -53,17 +49,14 @@ body {
 .cube:nth-child(3) { animation-delay: 4s; top: 50vh; left: 75vw; }
 .cube:nth-child(4) { animation-delay: 6s; top: 10vh; left: 90vw; }
 .cube:nth-child(5) { animation-delay: 8s; top: 85vh; left: 10vw; }
+.cube:nth-child(6) { animation-delay: 10s; top: 10vh; left: 50vw; }
 
 /* Navigation Bar */
 nav {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  background: rgba(255, 255, 255, 0.8);
-  padding: 10px 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 8px rgba(0,0,0,0.1);
-  z-index: 10;
+  position: absolute;
+  top: 30px;
+  right: 90px;
+  z-index: 1; /* Ensure it's clickable */
 }
 
 nav ul {
@@ -80,20 +73,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #007BFF;
-}
-
-@media (max-width: 600px) {
-  nav {
-    position: static;
-    margin: 20px auto;
-    width: 90%;
-    text-align: center;
-  }
-  nav ul {
-    flex-direction: column;
-    gap: 10px;
-  }
+  color: #FFF;
+  cursor: pointer;
 }
 
 /* Header Content */
@@ -111,8 +92,6 @@ nav ul li a:hover {
 .logo-image {
   width: 150px;
   height: auto;
-  display: block;
-  margin: 0 auto 40px auto;
 }
 
 /* Body Content */
@@ -125,8 +104,7 @@ nav ul li a:hover {
   width: 200px;
   height: auto;
   border-radius: 50%;
-  margin: 0 auto 20px auto;
-  display: block;
+  margin-bottom: 20px;
 }
 
 .body-content h2 {
@@ -138,7 +116,7 @@ nav ul li a:hover {
   font-size: 1.2em;
   line-height: 1.6;
   max-width: 800px;
-  margin: 0 auto 40px auto;
+  margin: 0 auto;
 }
 
 /* Footer */
@@ -146,7 +124,6 @@ nav ul li a:hover {
   text-align: center;
   padding: 40px 20px;
   background-color: #f0f0f0;
-  border-top: 1px solid #ccc;
 }
 
 .footer-content a {
@@ -155,11 +132,10 @@ nav ul li a:hover {
   text-decoration: none;
   margin-bottom: 10px;
   display: inline-block;
-  transition: color 0.3s;
 }
 
 .footer-content a:hover {
-  color: #007BFF;
+  text-decoration: underline;
 }
 
 .footer-content p {

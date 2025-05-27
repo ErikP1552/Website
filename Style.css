@@ -7,11 +7,10 @@
 
 body {
   font-family: 'Josefin Sans', sans-serif;
-  background: #fff;
+  background-color: lightblue; /* Set a basic background color to check visibility */
   color: #000;
   width: 100%;
   height: 100%;
-  overflow: hidden; /* Added for better handling of the content overflow */
 }
 
 .container-fluid {
@@ -20,38 +19,6 @@ body {
   position: relative;
   overflow: hidden; /* Keep content inside bounds */
 }
-
-/* Animated Background */
-.background {
-  background: linear-gradient(132deg, #6495ED, #FFFFE0, #B0C4DE);
-  background-size: 400% 400%;
-  animation: Gradient 15s ease infinite;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: -1; /* Ensure it's behind all other elements */
-}
-
-/* Animated Cubes */
-.cube {
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  border: 1px solid #D7D4E4;
-  transform-origin: top left;
-  transform: scale(0) rotate(0deg) translate(-50%, -50%);
-  animation: cube 12s ease-in forwards infinite;
-}
-
-.cube:nth-child(2n) {
-  border-color: #FFF;
-}
-
-.cube:nth-child(2) { animation-delay: 2s; top: 40vh; left: 25vw; }
-.cube:nth-child(3) { animation-delay: 4s; top: 50vh; left: 75vw; }
-.cube:nth-child(4) { animation-delay: 6s; top: 10vh; left: 90vw; }
-.cube:nth-child(5) { animation-delay: 8s; top: 85vh; left: 10vw; }
-.cube:nth-child(6) { animation-delay: 10s; top: 10vh; left: 50vw; }
 
 /* Navigation Bar */
 nav {
@@ -142,22 +109,4 @@ nav ul li a:hover {
 
 .footer-content p {
   font-size: 1em;
-}
-
-/* Animations */
-@keyframes Gradient {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
-
-@keyframes cube {
-  from {
-    transform: scale(0) rotate(0deg) translate(-50%, -50%);
-    opacity: 1;
-  }
-  to {
-    transform: scale(20) rotate(960deg) translate(-50%, -50%);
-    opacity: 0;
-  }
 }
